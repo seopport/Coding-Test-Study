@@ -14,7 +14,7 @@ function solution(str, n) {
     let str_slice = []
 
     for (let i = 0; i < str.length; i++) {
-        str_slice.push(str[i].slice(1))
+        str_slice.push(str[i].slice(1)) //첫번째부터 자르고 나머지 반환
     }
 
     return str_slice;
