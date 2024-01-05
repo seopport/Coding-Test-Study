@@ -11,12 +11,7 @@ function solution(x) {
         sum_x = Math.floor(sum_x / 10); //10으로 나눈 몫 (마지막 자릿수 삭제)
     }
 
-    // x가 각 자릿수의 합으로 나누어 떨어지는지 확인하여 결과 반환
-    if (x % sum === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return x % sum === 0 ? true : false;
 }
 
 //그냥 형변환 방식이 나한테 이해는 더 쉬운것 같다..ㅠ
