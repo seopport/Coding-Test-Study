@@ -9,3 +9,5 @@ function solution(numbers) {
     
     return answer;
 }
+
+// if!(numbers.includes(i)) 도 가능
