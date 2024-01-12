@@ -1,6 +1,5 @@
 function solution(arr) {
     var answer = [];
-    var temp = 0;
     
     var minNum = Math.min(...arr);
     console.log(minNum)
