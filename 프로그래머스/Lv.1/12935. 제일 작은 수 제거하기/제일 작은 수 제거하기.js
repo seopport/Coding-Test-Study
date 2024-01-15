@@ -1,14 +1,12 @@
 function solution(arr) {
     var answer = [];
     
-    var minNum = Math.min(...arr);
-    console.log(minNum)
+   let minNum = Math.min(...arr);
     arr.splice(arr.indexOf(minNum), 1);
     
-    if(arr.length === 0 ){
+    if(arr.length === 0){
         arr.push(-1);
     }
-
     return arr;
 }
 
