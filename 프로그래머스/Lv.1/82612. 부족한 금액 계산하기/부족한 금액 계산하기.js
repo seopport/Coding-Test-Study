@@ -6,7 +6,7 @@ function solution(price, money, count) {
         bill += price * i
     }  
     
-    money - bill < 0 ? answer = (money - bill) * -1 : answer = 0
+    money - bill < 0 ? answer = bill - money : answer = 0
 
 
     return answer;
