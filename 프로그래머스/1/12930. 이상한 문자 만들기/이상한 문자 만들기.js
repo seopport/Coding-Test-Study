@@ -15,7 +15,6 @@ function solution(s) {
         answer += s[i].toLowerCase();
       }
       count++;
-      console.log(count);
     }
   }
   return answer;
