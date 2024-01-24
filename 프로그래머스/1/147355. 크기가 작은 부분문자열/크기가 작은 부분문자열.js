@@ -4,12 +4,9 @@ function solution(t, p) {
     // 그게 p보다 작으면 count + 1
     for(let i = 0; i<=t.length-p.length; i++){
         tempT = t.substr(i, p.length);
-        console.log(tempT, tempT*1);
-        if(tempT*1 <= p){
+        if(tempT * 1 <= p){
             answer += 1;
         }
     }
-    
-    
     return answer;
 }
