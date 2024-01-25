@@ -5,7 +5,6 @@ function solution(sizes) {
     let maxHeight = [];
     
     for(let i = 0; i<sizes.length; i++){
-        maxWidth.push(sizes[i][0] >= sizes[i][1] ? sizes[i][0] : sizes[i][1])
         maxWidth.push(Math.max(sizes[i][0], sizes[i][1]))
         maxHeight.push(Math.min(sizes[i][0], sizes[i][1]))
     }
