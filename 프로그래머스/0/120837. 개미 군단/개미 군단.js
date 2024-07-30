@@ -7,11 +7,11 @@ function solution(hp) {
     }
     
     else if(hp % 5 % 3 === 0) {
-        answer = Math.floor(hp / 5) + hp % 5 / 3
+        answer = ~~(hp / 5) + hp % 5 / 3
     }
     
     else {
-        answer = hp % 5 >= 3 ?  Math.floor(hp / 5) + hp % 5 - 2 : Math.floor(hp / 5) + hp % 5
+        answer = hp % 5 > 3 ?  ~~(hp / 5) + hp % 5 - 2 : ~~(hp / 5) + hp % 5
 
     }
     
