@@ -6,7 +6,6 @@ function solution(d, budget) {
         return d.length;
     }else {
         const sortedD = d.sort((a, b) => a - b);
-        console.log(sortedD)
         for(let i = 0; i < sortedD.length; i++){
             sum += sortedD[i];
             count++;
@@ -14,6 +13,6 @@ function solution(d, budget) {
                 return count - 1;
             }else if(sum === budget) return count;
         }
-        }
+    }
         
 }
