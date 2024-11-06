@@ -1,0 +1,14 @@
+function solution(id_pw, db) {
+    let answer = '';
+    
+    if(db.filter((info) => id_pw[0] === info[0]).length === 0) return 'fail';
+        
+    db.forEach((info) => {
+        if(id_pw[0] === info[0]){
+            answer = id_pw[1] === info[1] ? "login" : "wrong pw";
+        }
+    })
+    
+    
+    return answer;
+}
