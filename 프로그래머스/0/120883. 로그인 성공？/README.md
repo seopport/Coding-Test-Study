@@ -1,6 +1,6 @@
 # [level 0] 로그인 성공? - 120883 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120883#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120883) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 11월 06일 17:31:55
+2024년 11월 06일 17:43:53
 
 ### 문제 설명
 
